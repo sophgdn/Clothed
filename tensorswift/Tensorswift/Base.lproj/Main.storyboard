@@ -33,7 +33,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iId-5L-0Pr">
-                                <rect key="frame" x="16" y="16" width="170" height="45"/>
+                                <rect key="frame" x="17" y="57" width="170" height="45"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Clothed">
                                         <attributes>
