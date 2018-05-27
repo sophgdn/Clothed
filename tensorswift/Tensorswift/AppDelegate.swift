@@ -2,9 +2,7 @@
 //  AppDelegate.swift
 //  Tensorswift
 //
-//  Created by Morten Just Petersen on 1/9/17.
-//  Copyright © 2017 Morten Just Petersen. All rights reserved.
-//
+
 
 import UIKit
 

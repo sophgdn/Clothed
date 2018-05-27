@@ -2,17 +2,18 @@
 //  ViewController.swift
 //  Tensorswift
 //
-//  Created by Morten Just Petersen on 1/9/17.
-//  Copyright © 2017 Morten Just Petersen. All rights reserved.
-//
 
 import UIKit
 import AVFoundation
 
 class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDelegate, TensorDelegate {
     
+    @IBOutlet weak var tag: UILabel!
+    
     @IBOutlet weak var previewView: UIView!
     var bridge:TensorBridge = TensorBridge()
+    
+    var currentLabel = ""
     
 
      private var videoCapture: VideoCapture!
@@ -23,7 +24,6 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
         guard let videoCapture = videoCapture else {return}
         videoCapture.startCapture()
     }
-    
     
 
     override func viewDidLoad() {
@@ -56,24 +56,29 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
         for seenObject in recognizedObjects {
             let label = String(describing: seenObject.key)
             let confidence = seenObject.value as! Double
-            
             let conPct = (confidence * 100).rounded()
+            
+            let utterance = AVSpeechUtterance(string: label)
+            utterance.voice = AVSpeechSynthesisVoice(language: "en-AU")
+            let synth = AVSpeechSynthesizer()
             
             // change the debug confidence here
             if confidence > 0.45 {
-                print("\(conPct)% sure that's a \(label)")
-                }
+                print("I'm \(conPct)% sure that's a \(label)")
+            }
             
             // change the trigger confidence in the Config file
-            if confidence > Config.confidence {
-              presentSeenObject(label: label)
+            let isEqual = (label == currentLabel)
+            if confidence > Config.confidence && isEqual == false {
+              tag.text = label
+              synth.speak(utterance)
+              currentLabel = label
+              //presentSeenObject(label: label)
             }
         }
     }
     
-    
     func presentSeenObject(label:String){
-        
         
         // Create a ViewController that shows a web page
         // You can do your own thing here, like your own view controller, or 
@@ -107,7 +112,6 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
                 vc.urlToLoad = "https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=\(label)"
             }
         }
-        
         
         
         self.present(vc, animated: false, completion: nil)

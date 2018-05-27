@@ -2,9 +2,6 @@
 //  Config.swift
 //  Tensorswift
 //
-//  Created by Morten Just Petersen on 3/11/17.
-//  Copyright © 2017 Morten Just Petersen. All rights reserved.
-//
 
 import UIKit
 
