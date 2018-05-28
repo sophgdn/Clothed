@@ -2,6 +2,9 @@
 //  ViewController.swift
 //  Tensorswift
 //
+//  Created by Morten Just Petersen on 3/11/17. Revision by Sophie Gardner beginning 10/12/17.
+//  Copyright © 2017 Morten Just Petersen. All rights reserved.
+//
 
 import UIKit
 import AVFoundation
@@ -48,7 +51,6 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
 //        presentSeenObject(label: "peanut")
     }
     
-
     // seen objects enter here
     
     func tensorLabelListUpdated(_ recognizedObjects:[AnyHashable : Any]){

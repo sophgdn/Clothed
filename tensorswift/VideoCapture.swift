@@ -1,7 +1,6 @@
 import AVFoundation
 import Foundation
 
-
 struct VideoSpec {
     var fps: Int32?
     var size: CGSize?

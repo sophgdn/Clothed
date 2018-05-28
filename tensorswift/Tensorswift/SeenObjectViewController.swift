@@ -2,7 +2,7 @@
 //  SeenObjectViewController.swift
 //  Tensorswift
 //
-//  Created by Morten Just Petersen on 3/11/17.
+//  Created by Morten Just Petersen on 3/11/17. Revision by Sophie Gardner beginning 10/12/17.
 //  Copyright © 2017 Morten Just Petersen. All rights reserved.
 //
 

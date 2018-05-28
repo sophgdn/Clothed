@@ -3,7 +3,6 @@
 
 #include <Foundation/Foundation.h>
 
-
 @class TensorBridge;
 
 @protocol TensorDelegate <NSObject>

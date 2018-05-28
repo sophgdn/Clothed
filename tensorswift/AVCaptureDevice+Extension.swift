@@ -4,6 +4,7 @@
 //  Created by Shuichi Tsutsumi on 4/3/16.
 //  Copyright © 2016 Shuichi Tsutsumi. All rights reserved.
 //
+
 import AVFoundation
 
 extension AVCaptureDevice {

@@ -1,6 +1,3 @@
-
-
-
 #import <AssertMacros.h>
 #import <AssetsLibrary/AssetsLibrary.h>
 #import <CoreImage/CoreImage.h>

@@ -22,8 +22,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zBN-vm-sHQ">
-                                <rect key="frame" x="0.0" y="115" width="375" height="459.5"/>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zBN-vm-sHQ">
+                                <rect key="frame" x="0.0" y="131" width="375" height="443"/>
                                 <color key="backgroundColor" red="1" green="0.69418795437460035" blue="0.6702169680766894" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Point camera at clothing " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vhd-6b-Raz">
@@ -32,8 +32,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iId-5L-0Pr">
-                                <rect key="frame" x="17" y="57" width="170" height="45"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iId-5L-0Pr">
+                                <rect key="frame" x="21" y="70" width="130.5" height="43.5"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Clothed">
                                         <attributes>
@@ -51,11 +51,11 @@
                             <constraint firstAttribute="trailingMargin" secondItem="vhd-6b-Raz" secondAttribute="trailing" constant="47.700000000000003" id="8u9-Tb-ONg"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="vhd-6b-Raz" secondAttribute="bottom" constant="36" id="Fh2-dv-ftX"/>
                             <constraint firstAttribute="trailing" secondItem="zBN-vm-sHQ" secondAttribute="trailing" id="LiE-wB-dHC"/>
-                            <constraint firstItem="zBN-vm-sHQ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="115" id="drC-xX-WdQ"/>
                             <constraint firstItem="iId-5L-0Pr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="5" id="dw8-h1-JOX"/>
                             <constraint firstItem="vhd-6b-Raz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="46.299999999999997" id="f1B-c2-HZH"/>
+                            <constraint firstItem="iId-5L-0Pr" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="h96-L1-rPE"/>
                             <constraint firstItem="zBN-vm-sHQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="lH6-Uv-Mb2"/>
-                            <constraint firstItem="zBN-vm-sHQ" firstAttribute="top" secondItem="iId-5L-0Pr" secondAttribute="bottom" constant="14" id="wzr-MY-PLy"/>
+                            <constraint firstItem="zBN-vm-sHQ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="115" id="lim-BI-QtM"/>
                         </constraints>
                     </view>
                     <connections>
@@ -67,32 +67,22 @@
             </objects>
             <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
         </scene>
-        <!--Seen Object View Controller-->
-        <scene sceneID="xLc-FW-8Zj">
+        <!--View Controller-->
+        <scene sceneID="Z75-XO-ObR">
             <objects>
-                <viewController storyboardIdentifier="webView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="GuK-rP-dCw" customClass="SeenObjectViewController" customModule="Tensorswift" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Sex-oF-7LE" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="xm5-Kh-Dul"/>
-                        <viewControllerLayoutGuide type="bottom" id="yDZ-Al-fE0"/>
+                        <viewControllerLayoutGuide type="top" id="AsM-pQ-bOs"/>
+                        <viewControllerLayoutGuide type="bottom" id="bLa-KS-MpR"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="0md-6K-Efn">
+                    <view key="view" contentMode="scaleToFill" id="AvP-d7-Ccr">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wus-ej-9Ma">
-                                <rect key="frame" x="66" y="51" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="mxJ-Mb-El6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BAi-Cb-SEn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="986" y="124"/>
         </scene>
     </scenes>
 </document>
