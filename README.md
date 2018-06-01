@@ -21,7 +21,7 @@ Built with the help of libraries from <a href="https://github.com/mortenjust/tra
 ## UI design 
 ![Clothed UI mockups](https://s3-ap-southeast-2.amazonaws.com/www.sophiegardner.me/githubImages/clothed-github-1.png)
 ![Clothed UI mockups](https://s3-ap-southeast-2.amazonaws.com/www.sophiegardner.me/githubImages/clothed-github-2.png)
-![Clothed UI mockups](https://s3-ap-southeast-2.amazonaws.com/www.sophiegardner.me/githubImages/clothed-github-3.png)
+![Clothed UI mockups](https://s3-ap-southeast-2.amazonaws.com/www.sophiegardner.me/githubImages/clothed-github-3.pn)
 
 
 ## To do 
