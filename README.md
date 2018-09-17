@@ -21,6 +21,8 @@ Built with the help of libraries from <a href="https://github.com/mortenjust/tra
 ## UI design 
 ![Clothed UI mockups](https://s3-ap-southeast-2.amazonaws.com/www.sophgdn.com/githubImages/clothed-video-1.gif)
 
+![](https://s3-ap-southeast-2.amazonaws.com/www.sophgdn.com/githubImages/clothed-video-1.gif)
+
 
 ## To do 
 - [x] Get image recognition working for patterns
