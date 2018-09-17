@@ -3,7 +3,7 @@ An IOS application that uses machine learning to detect clothing and fabric patt
 
 Built with the help of libraries from <a href="https://github.com/mortenjust/trainer-mac">@mortenjust</a> and <a href="https://github.com/tensorflow/tensorflow">@TensorFlow.</a>
 
-![Clothed icon](https://s3-ap-southeast-2.amazonaws.com/www.sophiegardner.me/githubImages/clothed-icon-github-1.png)
+![Clothed icon](https://s3-ap-southeast-2.amazonaws.com/www.sophgdn.com/githubImages/clothed-icon.png)
 
 ## To run on a phone or tablet
 * Clone or download this repository
