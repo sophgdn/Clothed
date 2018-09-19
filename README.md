@@ -20,10 +20,10 @@ Built with the help of libraries from <a href="https://github.com/mortenjust/tra
 
 ## UI design 
 <p align="center">
-<img src="https://s3-ap-southeast-2.amazonaws.com/www.sophgdn.com/github-images/clothed-banner-1.png" margin-bottom="200"/>
-<img src="https://s3-ap-southeast-2.amazonaws.com/www.sophgdn.com/github-images/clothed-banner-2.png" margin-bottom="200"/>
-<img src="https://s3-ap-southeast-2.amazonaws.com/www.sophgdn.com/github-images/clothed-banner-1.png" margin-bottom="200"/>
-<img src="https://s3-ap-southeast-2.amazonaws.com/www.sophgdn.com/github-images/clothed-banner-4.png" margin-bottom="200"/>
+<img src="https://s3-ap-southeast-2.amazonaws.com/www.sophgdn.com/github-images/clothed-banner-1.png" />
+<img src="https://s3-ap-southeast-2.amazonaws.com/www.sophgdn.com/github-images/clothed-banner-2.png" />
+<img src="https://s3-ap-southeast-2.amazonaws.com/www.sophgdn.com/github-images/clothed-banner-3.png" />
+<img src="https://s3-ap-southeast-2.amazonaws.com/www.sophgdn.com/github-images/clothed-banner-4.png" />
 <img src="https://s3-ap-southeast-2.amazonaws.com/www.sophgdn.com/github-images/clothed-github.png" />
 </p>
 
