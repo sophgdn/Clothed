@@ -19,7 +19,8 @@ Built with the help of libraries from <a href="https://github.com/mortenjust/tra
 * Go to Settings > General > Device Management, then tap your your Apple ID and select "Trust Clothed" 
 
 ## UI design 
-<img src="https://s3-ap-southeast-2.amazonaws.com/www.sophgdn.com/github-images/clothed-video-6.gif" height="400" />
+<img src="https://s3-ap-southeast-2.amazonaws.com/www.sophgdn.com/github-images/clothed-video-7.gif" />
+
 
 ## To do 
 - [x] Get image recognition working for patterns
