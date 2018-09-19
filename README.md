@@ -28,7 +28,7 @@ Built with the help of libraries from <a href="https://github.com/mortenjust/tra
 </p>
 
 
-## To do 
+## To do  
 - [x] Get image recognition working for patterns
 - [x] Displays tag when modle is > %70 confidence 
 - [x] Get text to speak working for `labels`
