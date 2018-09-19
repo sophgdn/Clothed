@@ -22,7 +22,7 @@ Built with the help of libraries from <a href="https://github.com/mortenjust/tra
 <p align="center">
 <img src="https://s3-ap-southeast-2.amazonaws.com/www.sophgdn.com/github-images/clothed-1.png" />
 <img src="https://s3-ap-southeast-2.amazonaws.com/www.sophgdn.com/github-images/clothed-2.png" />
-<img src="https://s3-ap-southeast-2.amazonaws.com/www.sophgdn.com/github-images/clothed-3.png" />
+<img src="https://s3-ap-southeast-2.amazonaws.com/www.sophgdn.com/github-images/clothed-5.png" />
 <img src="https://s3-ap-southeast-2.amazonaws.com/www.sophgdn.com/github-images/clothed-4.png" />
 </p>
 
