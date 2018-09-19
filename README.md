@@ -19,7 +19,8 @@ Built with the help of libraries from <a href="https://github.com/mortenjust/tra
 * Go to Settings > General > Device Management, then tap your your Apple ID and select "Trust Clothed" 
 
 ## UI design 
-![Clothed icon](https://s3-ap-southeast-2.amazonaws.com/www.sophgdn.com/github-images/clothed-video-5.gif)
+<img src="https://s3-ap-southeast-2.amazonaws.com/www.sophgdn.com/github-images/clothed-video-5.gif" width="40" height="40" />
+![Alt Text](https://s3-ap-southeast-2.amazonaws.com/www.sophgdn.com/github-images/clothed-video-5.gif)
 
 
 
