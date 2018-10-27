@@ -3,7 +3,7 @@ An IOS application that uses machine learning to detect clothing and fabric patt
 
 Built with the help of libraries from <a href="https://github.com/mortenjust/trainer-mac">@mortenjust</a> and <a href="https://github.com/tensorflow/tensorflow">@TensorFlow.</a>
 
-![Clothed icon](https://s3-ap-southeast-2.amazonaws.com/www.sophgdn.com/github-images/clothed-icon.png)
+![Clothed icon](https://s3-ap-southeast-2.amazonaws.com/www.sophgdn.com/github-images/clothed-github-icon.png)
 
 ## To run on a phone or tablet
 * Clone or download this repository
@@ -20,12 +20,12 @@ Built with the help of libraries from <a href="https://github.com/mortenjust/tra
 
 ## UI design 
 <p align="center">
- <img src="https://s3-ap-southeast-2.amazonaws.com/www.sophgdn.com/github-images/clothed-6.png" />
+ <img src="https://s3-ap-southeast-2.amazonaws.com/www.sophgdn.com/github-images/clothed-github-1.png" />
   
-<img src="https://s3-ap-southeast-2.amazonaws.com/www.sophgdn.com/github-images/clothed-1.png" />
-<img src="https://s3-ap-southeast-2.amazonaws.com/www.sophgdn.com/github-images/clothed-2.png" />
-<img src="https://s3-ap-southeast-2.amazonaws.com/www.sophgdn.com/github-images/clothed-5.png" />
-<img src="https://s3-ap-southeast-2.amazonaws.com/www.sophgdn.com/github-images/clothed-4.png" />
+<img src="https://s3-ap-southeast-2.amazonaws.com/www.sophgdn.com/github-images/clothed-github-2.png" />
+<img src="https://s3-ap-southeast-2.amazonaws.com/www.sophgdn.com/github-images/clothed-github-3.png" />
+<img src="https://s3-ap-southeast-2.amazonaws.com/www.sophgdn.com/github-images/clothed-github-4.png" />
+<img src="https://s3-ap-southeast-2.amazonaws.com/www.sophgdn.com/github-images/clothed-github-5.png" />
 </p>
 
 
